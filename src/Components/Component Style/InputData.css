@@ -1,0 +1,9 @@
+.InputData {
+    padding: 1.5rem;
+    background-color: #cddac0;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,88 @@
+.contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contant-head h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+
+.contant-head span {
+    font-weight: bold;
+    font-family: "Dubai Light";
+    font-size: 2rem;
+}
+
+.main-contant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2% ;
+    position: relative;
+
+}
+
+.part-contant{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(114,215,218,0.44) ;
+    border-radius: 1px;
+    margin-right: 1rem;
+
+}
+
+.part-contant-span{
+    position: absolute;
+    top: 33px;
+    left: 30px;
+    font-weight: bold;
+    font-family: 'Dubai Light';
+    font-size: 24px;
+}
+
+.part-contant button{
+    position: absolute;
+    top: 120px;
+    left: 44px;
+    border: black 2px solid;
+    border-radius: .1rem;
+    background-color: white;
+    color: #1a1e21;
+    font-family: 'Dubai Light';
+    font-weight:bold;
+}
+
+
+
+.email-icon{
+    position: absolute;
+    left:72px;
+    top:-29px;
+}
+
+
+.twitter-icon{
+    position: absolute;
+    left:504px;
+    top:-24px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.massage-icon{
+    position: absolute;
+    left:283px;
+    top:-29px;
+
+}
+

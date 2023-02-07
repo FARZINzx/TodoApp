@@ -1,0 +1,9 @@
+.loading {
+position: relative;
+}
+
+.spinner{
+    position: absolute;
+    left: 46rem;
+    top: 8rem;
+}
