@@ -15,7 +15,7 @@ function Content() {
             <div className='main-contant'>
                 <div className='part-contant'>
                     <span className='part-contant-span'>Drop us a line</span>
-                    <a href='mailto: 1farzinhamzei@gmail.com'><button className='btn email-btn' >Send a email</button></a>
+                    <a href='mailto: 5farzinhamzei@gmail.com'><button className='btn email-btn' >Send a email</button></a>
 
 
                 </div>

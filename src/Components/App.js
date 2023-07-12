@@ -17,6 +17,7 @@ import { BrowserRouter, Route , Switch } from 'react-router-dom'
 import Content from "../Route/Contect";
 import NotFound from "../Route/NotFound";
 import todos from '../Route/todos'
+import pilo from "../Route/hamintori";
 
 
 
@@ -53,7 +54,7 @@ console.log(state.todos.text)
                                 <Route path='/Content' component={Content}/>
                                 <Route path='/todos/:id' component={TodoDetail}/>
                                 <Route path='' component={NotFound}/>
-
+                                <Route path={'/hamintori'} component={pilo}/>
                             </Switch>
                         </div>
                     </div>

@@ -35,6 +35,14 @@ function Header(){
                                  pathname : '/Content'
                              }}>Contact us</NavLink>
                          </li>
+                         <li>
+                            <NavLink className='nav-link' activeStyle={{
+                                color : "white",
+                                backgroundColor : '#343a40'
+                            }} to={{
+                                pathname : '/hamintori'
+                            }}>hamintori</NavLink>
+                         </li>
                      </ul>
                      {
                          !authit.authiticate

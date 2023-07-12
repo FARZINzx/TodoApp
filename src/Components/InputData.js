@@ -46,9 +46,7 @@ function InputData(){
                    <div className="container d-flex flex-column align-items-center ">
                        <h1 className="text-black">Welcome </h1>
                        {
-                            // timeInput
-                            //   ? <TimeTodo timeTodo ={todoContext.timeTodo} btnHandler = {btnHandler}/>
-                            //   :
+                        
                                 log.authiticate
                                 ? <div>
                                     <p className="lead text-muted">To get started , add some items to your list : </p>
