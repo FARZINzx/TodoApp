@@ -1,5 +1,5 @@
 {
-  "homepage": "http://farzinzx.github.io/TodoApp/",
+  "homepage": "https://farzinzx.github.io/TodoApp ",
   "name": "todoapp",
   "version": "0.1.0",
   "private": true,
@@ -17,9 +17,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start ",
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
