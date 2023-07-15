@@ -34,7 +34,7 @@ console.log(state.todos.text)
 
     return(
 
-        <BrowserRouter>
+        <BrowserRouter asename={process.env.PUBLIC_URL}>
             <TodoContext.Provider value={{
                 state : state ,
                 todos : state.todos,
